@@ -24,7 +24,7 @@ public class InterfaceEole extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	//897
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -85,10 +85,10 @@ public class InterfaceEole extends JFrame {
 		lblBienvenue.setBounds(46, 11, 601, 23);
 		panel.add(lblBienvenue);
 		
-		JLabel lblNewLabel = new JLabel("New label");
+		JLabel lblNewLabel = new JLabel("");
 		Image img = new ImageIcon(this.getClass().getResource("/course_voile_floxiflux.png")).getImage();
 		lblNewLabel.setIcon(new ImageIcon(img));
-		lblNewLabel.setBounds(46, 43, 601, 288);
+		lblNewLabel.setBounds(46, 45, 601, 288);
 		panel.add(lblNewLabel);
 		
 
