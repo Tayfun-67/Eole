@@ -35,7 +35,7 @@ public class InterfaceClient extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	//56698
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
